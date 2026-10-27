@@ -1,0 +1,74 @@
+2026-10-27 12:02:49,310 | INFO     | Starting CustomerPulse AI FastAPI Backend | Developed & Engineered by Sridhar Kailash Panigrahy (@DarkSri-1)
+2026-10-27 12:02:49,554 | INFO     | [OK] Connected to MySQL (Version: 8.0.45) | Host: localhost:3306 | Database: customerpulse_db
+2026-10-27 12:02:49,813 | INFO     | [OK] Loaded ML model bundle into memory: Random_Forest (v1.0.0)
+2026-10-27 12:02:49,903 | INFO     | [OK] Connected to MySQL (Version: 8.0.45) | Host: localhost:3306 | Database: customerpulse_db
+2026-10-27 12:02:49,915 | INFO     | HTTP Request: GET http://testserver/health "HTTP/1.1 200 OK"
+2026-10-27 12:02:49,960 | INFO     | HTTP Request: GET http://testserver/customers?segment=Champions&limit=5&sort_by=monetary_gross&sort_order=desc "HTTP/1.1 200 OK"
+2026-10-27 12:02:49,983 | INFO     | HTTP Request: GET http://testserver/customers/17850 "HTTP/1.1 200 OK"
+2026-10-27 12:02:49,994 | INFO     | HTTP Request: GET http://testserver/customers/99999999 "HTTP/1.1 404 Not Found"
+2026-10-27 12:02:50,055 | INFO     | HTTP Request: GET http://testserver/analytics/overview "HTTP/1.1 200 OK"
+2026-10-27 12:02:50,061 | INFO     | HTTP Request: GET http://testserver/analytics/revenue "HTTP/1.1 200 OK"
+2026-10-27 12:02:50,220 | INFO     | HTTP Request: POST http://testserver/predict/churn "HTTP/1.1 200 OK"
+2026-10-27 12:02:50,228 | INFO     | HTTP Request: POST http://testserver/predict/churn "HTTP/1.1 422 Unprocessable Entity"
+2026-10-27 12:02:50,234 | INFO     | HTTP Request: POST http://testserver/predict/churn "HTTP/1.1 422 Unprocessable Entity"
+2026-10-27 12:02:50,237 | INFO     | HTTP Request: POST http://testserver/predict/churn "HTTP/1.1 503 Service Unavailable"
+2026-10-27 12:02:50,265 | INFO     | HTTP Request: GET http://testserver/models/metrics "HTTP/1.1 200 OK"
+2026-10-27 12:02:50,557 | INFO     | [OK] Connected to MySQL (Version: 8.0.45) | Host: localhost:3306 | Database: customerpulse_db
+2026-10-27 12:02:53,955 | INFO     | Rule 1 - Removed 1 exact duplicate rows. Remaining: 4
+2026-10-27 12:02:53,970 | INFO     | Rule 2 - Excluded 1 bad-debt ('A') rows and 2 invalid price/qty rows.
+2026-10-27 12:02:53,978 | INFO     | Rule 3 - Excluded 3 non-product fee/service rows. Remaining: 2
+2026-10-27 12:02:53,987 | INFO     | Rule 4 - Tagged 1 cancellations and 1 sales.
+2026-10-27 12:02:53,988 | INFO     |          Gross Sales: £25.00 | Returns: £-10.00 | Net: £15.00
+2026-10-27 12:02:54,003 | INFO     | Rule 5 - Standardized descriptions across 1 unique StockCodes.
+2026-10-27 12:02:54,018 | INFO     | Rule 6 - Cleaned store dataset: 2 rows (Guests: 1)
+2026-10-27 12:02:54,018 | INFO     |          Customer dataset   : 1 rows across 1 unique customers.
+2026-10-27 12:02:54,031 | INFO     | Rule 1 - Removed 1 exact duplicate rows. Remaining: 20
+2026-10-27 12:02:54,035 | INFO     | Rule 2 - Excluded 1 bad-debt ('A') rows and 2 invalid price/qty rows.
+2026-10-27 12:02:54,037 | INFO     | Rule 3 - Excluded 1 non-product fee/service rows. Remaining: 16
+2026-10-27 12:02:54,041 | INFO     | Rule 4 - Tagged 1 cancellations and 15 sales.
+2026-10-27 12:02:54,042 | INFO     |          Gross Sales: £897.77 | Returns: £-9.90 | Net: £887.87
+2026-10-27 12:02:54,050 | INFO     | Rule 5 - Standardized descriptions across 5 unique StockCodes.
+2026-10-27 12:02:54,056 | INFO     | Rule 6 - Cleaned store dataset: 16 rows (Guests: 1)
+2026-10-27 12:02:54,058 | INFO     |          Customer dataset   : 15 rows across 7 unique customers.
+2026-10-27 12:02:54,073 | INFO     | Rule 5 - Standardized descriptions across 1 unique StockCodes.
+2026-10-27 12:02:54,086 | INFO     | Rule 1 - Removed 1 exact duplicate rows. Remaining: 20
+2026-10-27 12:02:54,089 | INFO     | Rule 2 - Excluded 1 bad-debt ('A') rows and 2 invalid price/qty rows.
+2026-10-27 12:02:54,090 | INFO     | Rule 3 - Excluded 1 non-product fee/service rows. Remaining: 16
+2026-10-27 12:02:54,094 | INFO     | Rule 4 - Tagged 1 cancellations and 15 sales.
+2026-10-27 12:02:54,094 | INFO     |          Gross Sales: £897.77 | Returns: £-9.90 | Net: £887.87
+2026-10-27 12:02:54,104 | INFO     | Rule 5 - Standardized descriptions across 5 unique StockCodes.
+2026-10-27 12:02:54,110 | INFO     | Rule 6 - Cleaned store dataset: 16 rows (Guests: 1)
+2026-10-27 12:02:54,111 | INFO     |          Customer dataset   : 15 rows across 7 unique customers.
+2026-10-27 12:02:54,296 | INFO     | Rule 1 - Removed 1 exact duplicate rows. Remaining: 20
+2026-10-27 12:02:54,300 | INFO     | Rule 2 - Excluded 1 bad-debt ('A') rows and 2 invalid price/qty rows.
+2026-10-27 12:02:54,300 | INFO     | Rule 3 - Excluded 1 non-product fee/service rows. Remaining: 16
+2026-10-27 12:02:54,305 | INFO     | Rule 4 - Tagged 1 cancellations and 15 sales.
+2026-10-27 12:02:54,307 | INFO     |          Gross Sales: £897.77 | Returns: £-9.90 | Net: £887.87
+2026-10-27 12:02:54,317 | INFO     | Rule 5 - Standardized descriptions across 5 unique StockCodes.
+2026-10-27 12:02:54,324 | INFO     | Rule 6 - Cleaned store dataset: 16 rows (Guests: 1)
+2026-10-27 12:02:54,325 | INFO     |          Customer dataset   : 15 rows across 7 unique customers.
+2026-10-27 12:02:54,327 | INFO     | ======================================================================
+2026-10-27 12:02:54,327 | INFO     | Building Leak-Free Churn Modeling Dataset (Stage 7)
+2026-10-27 12:02:54,327 | INFO     |   Observation Window : 2010-12-12 11:00:00 -> 2011-09-10 00:00:00 (271 days)
+2026-10-27 12:02:54,328 | INFO     |   Outcome Window     : 2011-09-10 00:00:00 -> 2011-12-09 23:59:59 (90 days)
+2026-10-27 12:02:54,328 | INFO     | ======================================================================
+2026-10-27 12:02:54,406 | INFO     | Running 5 automated Zero-Leakage validation assertions...
+2026-10-27 12:02:54,408 | INFO     | [PASS] All 5 Zero-Leakage & Cohort Integrity assertions passed!
+2026-10-27 12:02:54,421 | INFO     | Rule 1 - Removed 1 exact duplicate rows. Remaining: 20
+2026-10-27 12:02:54,424 | INFO     | Rule 2 - Excluded 1 bad-debt ('A') rows and 2 invalid price/qty rows.
+2026-10-27 12:02:54,429 | INFO     | Rule 3 - Excluded 1 non-product fee/service rows. Remaining: 16
+2026-10-27 12:02:54,433 | INFO     | Rule 4 - Tagged 1 cancellations and 15 sales.
+2026-10-27 12:02:54,433 | INFO     |          Gross Sales: £897.77 | Returns: £-9.90 | Net: £887.87
+2026-10-27 12:02:54,445 | INFO     | Rule 5 - Standardized descriptions across 5 unique StockCodes.
+2026-10-27 12:02:54,492 | INFO     | Rule 6 - Cleaned store dataset: 16 rows (Guests: 1)
+2026-10-27 12:02:54,496 | INFO     |          Customer dataset   : 15 rows across 7 unique customers.
+2026-10-27 12:02:54,498 | INFO     | ======================================================================
+2026-10-27 12:02:54,498 | INFO     | Building Leak-Free Churn Modeling Dataset (Stage 7)
+2026-10-27 12:02:54,498 | INFO     |   Observation Window : 2010-12-12 11:00:00 -> 2011-09-10 00:00:00 (271 days)
+2026-10-27 12:02:54,498 | INFO     |   Outcome Window     : 2011-09-10 00:00:00 -> 2011-12-09 23:59:59 (90 days)
+2026-10-27 12:02:54,498 | INFO     | ======================================================================
+2026-10-27 12:02:54,617 | INFO     | Running 5 automated Zero-Leakage validation assertions...
+2026-10-27 12:02:54,619 | INFO     | [PASS] All 5 Zero-Leakage & Cohort Integrity assertions passed!
+2026-10-27 12:02:54,626 | INFO     | Running 5 automated Zero-Leakage validation assertions...
+2026-10-27 12:02:54,629 | INFO     | Shutting down CustomerPulse AI FastAPI Backend...
+2026-10-27 12:02:54,631 | INFO     | Database connection pool closed.

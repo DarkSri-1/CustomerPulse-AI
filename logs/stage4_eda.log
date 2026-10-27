@@ -1,0 +1,12 @@
+2026-10-26 16:01:54,615 | INFO     | Loading cleaned_transactions.csv and customer_transactions.csv...
+2026-10-26 16:01:55,874 | INFO     | Computing comprehensive EDA metrics...
+2026-10-26 16:01:56,905 | INFO     | Generating and saving EDA charts to reports/figures/...
+2026-10-26 16:01:56,922 | INFO     | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-10-26 16:01:56,925 | INFO     | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-10-26 16:01:56,926 | INFO     | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-10-26 16:01:56,927 | INFO     | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-10-26 16:01:59,437 | INFO     | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-10-26 16:01:59,439 | INFO     | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-10-26 16:02:00,175 | INFO     | Saved 5 multi-panel EDA visual charts to C:\Users\sridh\OneDrive\Desktop\PGA45\projects\CustomerPulse AI\reports\figures
+2026-10-26 16:02:00,184 | INFO     | Saved EDA JSON summary to     : C:\Users\sridh\OneDrive\Desktop\PGA45\projects\CustomerPulse AI\reports\eda_summary.json
+2026-10-26 16:02:00,184 | INFO     | Saved EDA Markdown summary to : C:\Users\sridh\OneDrive\Desktop\PGA45\projects\CustomerPulse AI\reports\eda_summary.md

@@ -1,0 +1,5 @@
+2026-10-26 15:19:38,942 | INFO     | Loading raw dataset from: C:\Users\sridh\OneDrive\Desktop\PGA45\projects\CustomerPulse AI\data\raw\Online Retail.xlsx (22.62 MB)
+2026-10-26 15:19:38,942 | INFO     | Reading Excel file via openpyxl (this takes ~25-45 seconds for 541k rows)...
+2026-10-26 15:20:31,595 | INFO     | Successfully loaded 541,909 rows and 8 columns.
+2026-10-26 15:20:32,613 | INFO     | Saved JSON report to     : C:\Users\sridh\OneDrive\Desktop\PGA45\projects\CustomerPulse AI\reports\data_quality_report.json
+2026-10-26 15:20:32,613 | INFO     | Saved Markdown report to : C:\Users\sridh\OneDrive\Desktop\PGA45\projects\CustomerPulse AI\reports\data_quality_report.md
