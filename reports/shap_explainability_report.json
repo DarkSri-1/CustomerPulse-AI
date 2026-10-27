@@ -1,0 +1,275 @@
+{
+    "model_name": "Random_Forest",
+    "model_version": "v1.0.0",
+    "shap_expected_base_value": 0.5,
+    "global_feature_importance": [
+        {
+            "feature": "frequency_orders",
+            "display_name": "Order Frequency (Total Orders)",
+            "mean_abs_shap": 0.0412,
+            "relative_share_pct": 13.12,
+            "feature_shap_correlation": -0.5874,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 1
+        },
+        {
+            "feature": "total_line_items",
+            "display_name": "Total Line Items Purchased",
+            "mean_abs_shap": 0.0409,
+            "relative_share_pct": 13.04,
+            "feature_shap_correlation": -0.4437,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 2
+        },
+        {
+            "feature": "monetary_gross",
+            "display_name": "Gross Spend (\u00a3)",
+            "mean_abs_shap": 0.033,
+            "relative_share_pct": 10.52,
+            "feature_shap_correlation": -0.3189,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 3
+        },
+        {
+            "feature": "avg_days_between_orders",
+            "display_name": "Avg Days Between Orders",
+            "mean_abs_shap": 0.0295,
+            "relative_share_pct": 9.41,
+            "feature_shap_correlation": -0.5205,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 4
+        },
+        {
+            "feature": "monetary_net",
+            "display_name": "Net Revenue (\u00a3)",
+            "mean_abs_shap": 0.0267,
+            "relative_share_pct": 8.51,
+            "feature_shap_correlation": -0.3183,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 5
+        },
+        {
+            "feature": "recency_days",
+            "display_name": "Recency (Days Since Last Order)",
+            "mean_abs_shap": 0.0266,
+            "relative_share_pct": 8.47,
+            "feature_shap_correlation": 0.878,
+            "directional_effect": "Higher value INCREASES churn risk (+)",
+            "rank": 6
+        },
+        {
+            "feature": "total_units",
+            "display_name": "Total Units Purchased",
+            "mean_abs_shap": 0.0263,
+            "relative_share_pct": 8.38,
+            "feature_shap_correlation": -0.2944,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 7
+        },
+        {
+            "feature": "spend_last_60d",
+            "display_name": "Spend in Last 60 Days (\u00a3)",
+            "mean_abs_shap": 0.0225,
+            "relative_share_pct": 7.17,
+            "feature_shap_correlation": -0.238,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 8
+        },
+        {
+            "feature": "unique_products",
+            "display_name": "Product Diversity (Unique SKUs)",
+            "mean_abs_shap": 0.0155,
+            "relative_share_pct": 4.95,
+            "feature_shap_correlation": -0.5907,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 9
+        },
+        {
+            "feature": "avg_order_value",
+            "display_name": "Average Order Value (\u00a3)",
+            "mean_abs_shap": 0.0133,
+            "relative_share_pct": 4.22,
+            "feature_shap_correlation": 0.1903,
+            "directional_effect": "Higher value INCREASES churn risk (+)",
+            "rank": 10
+        },
+        {
+            "feature": "orders_last_60d",
+            "display_name": "Orders in Last 60 Days",
+            "mean_abs_shap": 0.0103,
+            "relative_share_pct": 3.28,
+            "feature_shap_correlation": -0.7123,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 11
+        },
+        {
+            "feature": "tenure_days",
+            "display_name": "Customer Tenure (Days)",
+            "mean_abs_shap": 0.0087,
+            "relative_share_pct": 2.77,
+            "feature_shap_correlation": -0.1224,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 12
+        },
+        {
+            "feature": "cancellation_rate_pct",
+            "display_name": "Cancellation Rate (%)",
+            "mean_abs_shap": 0.006,
+            "relative_share_pct": 1.9,
+            "feature_shap_correlation": -0.1025,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 13
+        },
+        {
+            "feature": "cancellations_amount",
+            "display_name": "Cancelled/Returned Amount (\u00a3)",
+            "mean_abs_shap": 0.0048,
+            "relative_share_pct": 1.52,
+            "feature_shap_correlation": 0.013,
+            "directional_effect": "Higher value INCREASES churn risk (+)",
+            "rank": 14
+        },
+        {
+            "feature": "spend_last_30d",
+            "display_name": "Spend in Last 30 Days (\u00a3)",
+            "mean_abs_shap": 0.0034,
+            "relative_share_pct": 1.08,
+            "feature_shap_correlation": -0.1911,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 15
+        },
+        {
+            "feature": "spend_ratio_last_30d",
+            "display_name": "30-Day Spend Momentum Ratio",
+            "mean_abs_shap": 0.0027,
+            "relative_share_pct": 0.85,
+            "feature_shap_correlation": 0.2002,
+            "directional_effect": "Higher value INCREASES churn risk (+)",
+            "rank": 16
+        },
+        {
+            "feature": "orders_last_30d",
+            "display_name": "Orders in Last 30 Days",
+            "mean_abs_shap": 0.0013,
+            "relative_share_pct": 0.4,
+            "feature_shap_correlation": -0.7164,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 17
+        },
+        {
+            "feature": "country_infrequent_sklearn",
+            "display_name": "country_infrequent_sklearn",
+            "mean_abs_shap": 0.0006,
+            "relative_share_pct": 0.18,
+            "feature_shap_correlation": 0.9569,
+            "directional_effect": "Higher value INCREASES churn risk (+)",
+            "rank": 18
+        },
+        {
+            "feature": "country_United Kingdom",
+            "display_name": "country_United Kingdom",
+            "mean_abs_shap": 0.0005,
+            "relative_share_pct": 0.16,
+            "feature_shap_correlation": -0.4188,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 19
+        },
+        {
+            "feature": "country_France",
+            "display_name": "country_France",
+            "mean_abs_shap": 0.0001,
+            "relative_share_pct": 0.03,
+            "feature_shap_correlation": 0.7662,
+            "directional_effect": "Higher value INCREASES churn risk (+)",
+            "rank": 20
+        },
+        {
+            "feature": "country_Germany",
+            "display_name": "country_Germany",
+            "mean_abs_shap": 0.0001,
+            "relative_share_pct": 0.03,
+            "feature_shap_correlation": -0.8015,
+            "directional_effect": "Higher value DECREASES churn risk (-)",
+            "rank": 21
+        },
+        {
+            "feature": "country_Portugal",
+            "display_name": "country_Portugal",
+            "mean_abs_shap": 0.0,
+            "relative_share_pct": 0.0,
+            "feature_shap_correlation": 0.0,
+            "directional_effect": "Higher value INCREASES churn risk (+)",
+            "rank": 22
+        },
+        {
+            "feature": "country_Belgium",
+            "display_name": "country_Belgium",
+            "mean_abs_shap": 0.0,
+            "relative_share_pct": 0.0,
+            "feature_shap_correlation": 0.0,
+            "directional_effect": "Higher value INCREASES churn risk (+)",
+            "rank": 23
+        },
+        {
+            "feature": "country_Switzerland",
+            "display_name": "country_Switzerland",
+            "mean_abs_shap": 0.0,
+            "relative_share_pct": 0.0,
+            "feature_shap_correlation": 0.0,
+            "directional_effect": "Higher value INCREASES churn risk (+)",
+            "rank": 24
+        },
+        {
+            "feature": "country_Spain",
+            "display_name": "country_Spain",
+            "mean_abs_shap": 0.0,
+            "relative_share_pct": 0.0,
+            "feature_shap_correlation": 0.0,
+            "directional_effect": "Higher value INCREASES churn risk (+)",
+            "rank": 25
+        }
+    ],
+    "individual_customer_examples": [
+        {
+            "profile_type": "High Risk Example",
+            "masked_customer_id": "CUST-***68",
+            "churn_probability": 0.8574,
+            "risk_tier": "High Risk",
+            "recency_days": 126,
+            "frequency_orders": 1,
+            "monetary_gross_gbp": 76.32,
+            "top_driver_1": "total_line_items=1 (+0.07 SHAP, +risk)",
+            "top_driver_2": "unique_products=1 (+0.05 SHAP, +risk)",
+            "top_driver_3": "monetary_net=76.3 (+0.03 SHAP, +risk)"
+        },
+        {
+            "profile_type": "Medium Risk Example",
+            "masked_customer_id": "CUST-***54",
+            "churn_probability": 0.5831,
+            "risk_tier": "Medium Risk",
+            "recency_days": 36,
+            "frequency_orders": 1,
+            "monetary_gross_gbp": 300.36,
+            "top_driver_1": "spend_last_60d=300.4 (-0.04 SHAP, -risk)",
+            "top_driver_2": "avg_days_between_orders=0.0 (+0.03 SHAP, +risk)",
+            "top_driver_3": "frequency_orders=1 (+0.03 SHAP, +risk)"
+        },
+        {
+            "profile_type": "Low Risk Example",
+            "masked_customer_id": "CUST-***96",
+            "churn_probability": 0.0006,
+            "risk_tier": "Low Risk",
+            "recency_days": 3,
+            "frequency_orders": 14,
+            "monetary_gross_gbp": 6579.62,
+            "top_driver_1": "frequency_orders=14 (-0.09 SHAP, -risk)",
+            "top_driver_2": "monetary_gross=6579.6 (-0.07 SHAP, -risk)",
+            "top_driver_3": "total_line_items=898 (-0.06 SHAP, -risk)"
+        }
+    ],
+    "methodological_notes": {
+        "association_vs_causality": "SHAP values quantify how strongly each historical feature influences the model's predicted churn score (predictive association), NOT causal impact.",
+        "collinearity_limitation": "Correlated behavioral features (e.g., monetary_gross, monetary_net, total_units, and frequency_orders) share attribution credit across trees.",
+        "privacy_protection": "Customer IDs in logs and static reports are masked (CUST-***XX) to avoid exposing unnecessary customer identifiers."
+    }
+}

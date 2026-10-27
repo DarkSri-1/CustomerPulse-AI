@@ -1,0 +1,505 @@
+{
+    "kpis": {
+        "store_gross_revenue_gbp": 10247905.13,
+        "store_cancellations_gbp": -475901.16,
+        "store_net_revenue_gbp": 9772003.97,
+        "store_return_rate_pct_of_gross": 4.64,
+        "store_qualifying_orders": 19773,
+        "store_average_order_value_gbp": 518.28,
+        "customer_gross_revenue_gbp": 8737227.64,
+        "customer_cancellations_gbp": -471750.71,
+        "customer_net_revenue_gbp": 8265476.93,
+        "customer_qualifying_orders": 18402,
+        "customer_average_order_value_gbp": 474.8,
+        "unique_customers_with_positive_sales": 4334,
+        "unique_customers_total": 4362,
+        "repeat_customers_count": 2829,
+        "one_time_customers_count": 1505,
+        "repeat_purchase_rate_pct": 65.27,
+        "top_10_pct_customers_revenue_share_pct": 61.37,
+        "top_20_pct_customers_revenue_share_pct": 74.58
+    },
+    "customer_spend_distribution": {
+        "min": 3.75,
+        "p25": 304.24,
+        "median": 662.57,
+        "mean": 2015.97,
+        "p75": 1631.62,
+        "p90": 3560.08,
+        "p99": 18715.31,
+        "max": 279138.02
+    },
+    "monthly_revenue_trend": [
+        {
+            "InvoiceYearMonth": "2010-12",
+            "gross_revenue": 775714.95,
+            "qualifying_orders": 1550,
+            "units_sold": 357531,
+            "cancellation_amount": -17547.86,
+            "net_revenue": 758167.09
+        },
+        {
+            "InvoiceYearMonth": "2011-01",
+            "gross_revenue": 670439.46,
+            "qualifying_orders": 1081,
+            "units_sold": 386741,
+            "cancellation_amount": -91525.05,
+            "net_revenue": 578914.41
+        },
+        {
+            "InvoiceYearMonth": "2011-02",
+            "gross_revenue": 507866.54,
+            "qualifying_orders": 1093,
+            "units_sold": 282630,
+            "cancellation_amount": -8335.52,
+            "net_revenue": 499531.02
+        },
+        {
+            "InvoiceYearMonth": "2011-03",
+            "gross_revenue": 689841.84,
+            "qualifying_orders": 1440,
+            "units_sold": 376183,
+            "cancellation_amount": -10504.3,
+            "net_revenue": 679337.54
+        },
+        {
+            "InvoiceYearMonth": "2011-04",
+            "gross_revenue": 515469.66,
+            "qualifying_orders": 1235,
+            "units_sold": 307655,
+            "cancellation_amount": -33316.06,
+            "net_revenue": 482153.6
+        },
+        {
+            "InvoiceYearMonth": "2011-05",
+            "gross_revenue": 740036.33,
+            "qualifying_orders": 1668,
+            "units_sold": 394657,
+            "cancellation_amount": -8948.23,
+            "net_revenue": 731088.1
+        },
+        {
+            "InvoiceYearMonth": "2011-06",
+            "gross_revenue": 737683.99,
+            "qualifying_orders": 1525,
+            "units_sold": 388129,
+            "cancellation_amount": -13713.84,
+            "net_revenue": 723970.15
+        },
+        {
+            "InvoiceYearMonth": "2011-07",
+            "gross_revenue": 688252.67,
+            "qualifying_orders": 1452,
+            "units_sold": 399291,
+            "cancellation_amount": -11407.26,
+            "net_revenue": 676845.41
+        },
+        {
+            "InvoiceYearMonth": "2011-08",
+            "gross_revenue": 724308.16,
+            "qualifying_orders": 1339,
+            "units_sold": 420701,
+            "cancellation_amount": -22926.57,
+            "net_revenue": 701381.59
+        },
+        {
+            "InvoiceYearMonth": "2011-09",
+            "gross_revenue": 1028345.38,
+            "qualifying_orders": 1818,
+            "units_sold": 568701,
+            "cancellation_amount": -16980.64,
+            "net_revenue": 1011364.74
+        },
+        {
+            "InvoiceYearMonth": "2011-10",
+            "gross_revenue": 1103330.92,
+            "qualifying_orders": 2005,
+            "units_sold": 619598,
+            "cancellation_amount": -41613.03,
+            "net_revenue": 1061717.89
+        },
+        {
+            "InvoiceYearMonth": "2011-11",
+            "gross_revenue": 1452115.98,
+            "qualifying_orders": 2751,
+            "units_sold": 746952,
+            "cancellation_amount": -24991.44,
+            "net_revenue": 1427124.54
+        },
+        {
+            "InvoiceYearMonth": "2011-12",
+            "gross_revenue": 614499.25,
+            "qualifying_orders": 816,
+            "units_sold": 312648,
+            "cancellation_amount": -174091.36,
+            "net_revenue": 440407.89
+        }
+    ],
+    "top_10_selling_products_by_qty": [
+        {
+            "StockCode": "23843",
+            "Description": "PAPER CRAFT , LITTLE BIRDIE",
+            "total_quantity": 80995,
+            "gross_revenue": 168469.6,
+            "order_count": 1
+        },
+        {
+            "StockCode": "23166",
+            "Description": "MEDIUM CERAMIC TOP STORAGE JAR",
+            "total_quantity": 78033,
+            "gross_revenue": 81700.92,
+            "order_count": 247
+        },
+        {
+            "StockCode": "22197",
+            "Description": "POPCORN HOLDER",
+            "total_quantity": 56898,
+            "gross_revenue": 51334.47,
+            "order_count": 1392
+        },
+        {
+            "StockCode": "84077",
+            "Description": "WORLD WAR 2 GLIDERS ASSTD DESIGNS",
+            "total_quantity": 54951,
+            "gross_revenue": 13814.01,
+            "order_count": 535
+        },
+        {
+            "StockCode": "85099B",
+            "Description": "JUMBO BAG RED RETROSPOT",
+            "total_quantity": 48371,
+            "gross_revenue": 94159.81,
+            "order_count": 2089
+        },
+        {
+            "StockCode": "85123A",
+            "Description": "WHITE HANGING HEART T-LIGHT HOLDER",
+            "total_quantity": 37641,
+            "gross_revenue": 104462.75,
+            "order_count": 2198
+        },
+        {
+            "StockCode": "21212",
+            "Description": "PACK OF 72 RETROSPOT CAKE CASES",
+            "total_quantity": 36396,
+            "gross_revenue": 21246.45,
+            "order_count": 1320
+        },
+        {
+            "StockCode": "84879",
+            "Description": "ASSORTED COLOUR BIRD ORNAMENT",
+            "total_quantity": 36362,
+            "gross_revenue": 58927.62,
+            "order_count": 1455
+        },
+        {
+            "StockCode": "23084",
+            "Description": "RABBIT NIGHT LIGHT",
+            "total_quantity": 30739,
+            "gross_revenue": 66870.03,
+            "order_count": 994
+        },
+        {
+            "StockCode": "22492",
+            "Description": "MINI PAINT SET VINTAGE",
+            "total_quantity": 26633,
+            "gross_revenue": 16937.82,
+            "order_count": 380
+        }
+    ],
+    "top_10_highest_revenue_products": [
+        {
+            "StockCode": "22423",
+            "Description": "REGENCY CAKESTAND 3 TIER",
+            "gross_revenue": 174156.54,
+            "total_quantity": 13851,
+            "order_count": 1988
+        },
+        {
+            "StockCode": "23843",
+            "Description": "PAPER CRAFT , LITTLE BIRDIE",
+            "gross_revenue": 168469.6,
+            "total_quantity": 80995,
+            "order_count": 1
+        },
+        {
+            "StockCode": "85123A",
+            "Description": "WHITE HANGING HEART T-LIGHT HOLDER",
+            "gross_revenue": 104462.75,
+            "total_quantity": 37641,
+            "order_count": 2198
+        },
+        {
+            "StockCode": "47566",
+            "Description": "PARTY BUNTING",
+            "gross_revenue": 99445.23,
+            "total_quantity": 18283,
+            "order_count": 1685
+        },
+        {
+            "StockCode": "85099B",
+            "Description": "JUMBO BAG RED RETROSPOT",
+            "gross_revenue": 94159.81,
+            "total_quantity": 48371,
+            "order_count": 2089
+        },
+        {
+            "StockCode": "23166",
+            "Description": "MEDIUM CERAMIC TOP STORAGE JAR",
+            "gross_revenue": 81700.92,
+            "total_quantity": 78033,
+            "order_count": 247
+        },
+        {
+            "StockCode": "23084",
+            "Description": "RABBIT NIGHT LIGHT",
+            "gross_revenue": 66870.03,
+            "total_quantity": 30739,
+            "order_count": 994
+        },
+        {
+            "StockCode": "22086",
+            "Description": "PAPER CHAIN KIT 50'S CHRISTMAS",
+            "gross_revenue": 64875.59,
+            "total_quantity": 19329,
+            "order_count": 1160
+        },
+        {
+            "StockCode": "84879",
+            "Description": "ASSORTED COLOUR BIRD ORNAMENT",
+            "gross_revenue": 58927.62,
+            "total_quantity": 36362,
+            "order_count": 1455
+        },
+        {
+            "StockCode": "79321",
+            "Description": "CHILLI LIGHTS",
+            "gross_revenue": 54096.36,
+            "total_quantity": 10302,
+            "order_count": 661
+        }
+    ],
+    "top_10_countries_by_revenue": [
+        {
+            "Country": "United Kingdom",
+            "gross_revenue": 8725129.48,
+            "qualifying_orders": 17901,
+            "units_sold": 4639144,
+            "revenue_share_pct": 85.14
+        },
+        {
+            "Country": "Netherlands",
+            "gross_revenue": 283889.34,
+            "qualifying_orders": 93,
+            "units_sold": 200258,
+            "revenue_share_pct": 2.77
+        },
+        {
+            "Country": "EIRE",
+            "gross_revenue": 270850.86,
+            "qualifying_orders": 282,
+            "units_sold": 146896,
+            "revenue_share_pct": 2.64
+        },
+        {
+            "Country": "Germany",
+            "gross_revenue": 205381.15,
+            "qualifying_orders": 443,
+            "units_sold": 118032,
+            "revenue_share_pct": 2.0
+        },
+        {
+            "Country": "France",
+            "gross_revenue": 184493.0,
+            "qualifying_orders": 382,
+            "units_sold": 111226,
+            "revenue_share_pct": 1.8
+        },
+        {
+            "Country": "Australia",
+            "gross_revenue": 138103.81,
+            "qualifying_orders": 56,
+            "units_sold": 83890,
+            "revenue_share_pct": 1.35
+        },
+        {
+            "Country": "Spain",
+            "gross_revenue": 55706.56,
+            "qualifying_orders": 88,
+            "units_sold": 27724,
+            "revenue_share_pct": 0.54
+        },
+        {
+            "Country": "Switzerland",
+            "gross_revenue": 53065.6,
+            "qualifying_orders": 50,
+            "units_sold": 30515,
+            "revenue_share_pct": 0.52
+        },
+        {
+            "Country": "Japan",
+            "gross_revenue": 37416.37,
+            "qualifying_orders": 19,
+            "units_sold": 26016,
+            "revenue_share_pct": 0.37
+        },
+        {
+            "Country": "Belgium",
+            "gross_revenue": 36927.34,
+            "qualifying_orders": 98,
+            "units_sold": 22962,
+            "revenue_share_pct": 0.36
+        }
+    ],
+    "day_of_week_performance": [
+        {
+            "InvoiceDayOfWeek": "Monday",
+            "gross_revenue": 1683019.56,
+            "qualifying_orders": 3076.0
+        },
+        {
+            "InvoiceDayOfWeek": "Tuesday",
+            "gross_revenue": 2085115.32,
+            "qualifying_orders": 3509.0
+        },
+        {
+            "InvoiceDayOfWeek": "Wednesday",
+            "gross_revenue": 1782465.88,
+            "qualifying_orders": 3667.0
+        },
+        {
+            "InvoiceDayOfWeek": "Thursday",
+            "gross_revenue": 2131755.6,
+            "qualifying_orders": 4209.0
+        },
+        {
+            "InvoiceDayOfWeek": "Friday",
+            "gross_revenue": 1767237.27,
+            "qualifying_orders": 3109.0
+        },
+        {
+            "InvoiceDayOfWeek": "Saturday",
+            "gross_revenue": 0.0,
+            "qualifying_orders": 0.0
+        },
+        {
+            "InvoiceDayOfWeek": "Sunday",
+            "gross_revenue": 798311.5,
+            "qualifying_orders": 2203.0
+        }
+    ],
+    "hourly_performance": [
+        {
+            "InvoiceHour": 6,
+            "gross_revenue": 4.25,
+            "qualifying_orders": 1
+        },
+        {
+            "InvoiceHour": 7,
+            "gross_revenue": 30469.21,
+            "qualifying_orders": 29
+        },
+        {
+            "InvoiceHour": 8,
+            "gross_revenue": 279297.68,
+            "qualifying_orders": 565
+        },
+        {
+            "InvoiceHour": 9,
+            "gross_revenue": 955760.16,
+            "qualifying_orders": 1471
+        },
+        {
+            "InvoiceHour": 10,
+            "gross_revenue": 1401791.4,
+            "qualifying_orders": 2339
+        },
+        {
+            "InvoiceHour": 11,
+            "gross_revenue": 1196812.55,
+            "qualifying_orders": 2373
+        },
+        {
+            "InvoiceHour": 12,
+            "gross_revenue": 1412921.32,
+            "qualifying_orders": 3205
+        },
+        {
+            "InvoiceHour": 13,
+            "gross_revenue": 1220426.07,
+            "qualifying_orders": 2730
+        },
+        {
+            "InvoiceHour": 14,
+            "gross_revenue": 1119717.34,
+            "qualifying_orders": 2419
+        },
+        {
+            "InvoiceHour": 15,
+            "gross_revenue": 1274031.65,
+            "qualifying_orders": 2310
+        },
+        {
+            "InvoiceHour": 16,
+            "gross_revenue": 708699.81,
+            "qualifying_orders": 1315
+        },
+        {
+            "InvoiceHour": 17,
+            "gross_revenue": 440964.88,
+            "qualifying_orders": 662
+        },
+        {
+            "InvoiceHour": 18,
+            "gross_revenue": 139079.12,
+            "qualifying_orders": 192
+        },
+        {
+            "InvoiceHour": 19,
+            "gross_revenue": 49098.66,
+            "qualifying_orders": 145
+        },
+        {
+            "InvoiceHour": 20,
+            "gross_revenue": 18831.03,
+            "qualifying_orders": 18
+        }
+    ],
+    "top_5_cancelled_products": [
+        {
+            "StockCode": "23843",
+            "Description": "PAPER CRAFT , LITTLE BIRDIE",
+            "cancelled_amount": 168469.6,
+            "cancelled_units": 80995,
+            "cancel_events": 1
+        },
+        {
+            "StockCode": "23166",
+            "Description": "MEDIUM CERAMIC TOP STORAGE JAR",
+            "cancelled_amount": 77479.64,
+            "cancelled_units": 74494,
+            "cancel_events": 10
+        },
+        {
+            "StockCode": "22423",
+            "Description": "REGENCY CAKESTAND 3 TIER",
+            "cancelled_amount": 9697.05,
+            "cancelled_units": 855,
+            "cancel_events": 180
+        },
+        {
+            "StockCode": "85123A",
+            "Description": "WHITE HANGING HEART T-LIGHT HOLDER",
+            "cancelled_amount": 6624.3,
+            "cancelled_units": 2578,
+            "cancel_events": 42
+        },
+        {
+            "StockCode": "21108",
+            "Description": "FAIRY CAKE FLANNEL ASSORTED COLOUR",
+            "cancelled_amount": 6591.42,
+            "cancelled_units": 3150,
+            "cancel_events": 3
+        }
+    ]
+}
