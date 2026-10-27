@@ -1,0 +1,51 @@
+{
+  "name": "CustomerPulseAI_ExecutiveDark",
+  "dataColors": [
+    "#3A86FF",
+    "#06D6A0",
+    "#FFB703",
+    "#E63946",
+    "#8338EC",
+    "#FB5607",
+    "#118AB2",
+    "#073B4C"
+  ],
+  "background": "#0B132B",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#3A86FF",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1C2541"
+              }
+            }
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#3A86FF"
+              }
+            },
+            "radius": 8
+          }
+        ],
+        "title": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    }
+  }
+}
