@@ -1,0 +1,120 @@
+{
+    "dataset_overview": {
+        "total_rows": 541909,
+        "total_columns": 8,
+        "columns": [
+            "InvoiceNo",
+            "StockCode",
+            "Description",
+            "Quantity",
+            "InvoiceDate",
+            "UnitPrice",
+            "CustomerID",
+            "Country"
+        ],
+        "dtypes": {
+            "InvoiceNo": "object",
+            "StockCode": "object",
+            "Description": "object",
+            "Quantity": "int64",
+            "InvoiceDate": "datetime64[us]",
+            "UnitPrice": "float64",
+            "CustomerID": "float64",
+            "Country": "str"
+        }
+    },
+    "missing_values": {
+        "counts": {
+            "InvoiceNo": 0,
+            "StockCode": 0,
+            "Description": 1454,
+            "Quantity": 0,
+            "InvoiceDate": 0,
+            "UnitPrice": 0,
+            "CustomerID": 135080,
+            "Country": 0
+        },
+        "percentages": {
+            "InvoiceNo": 0.0,
+            "StockCode": 0.0,
+            "Description": 0.2683,
+            "Quantity": 0.0,
+            "InvoiceDate": 0.0,
+            "UnitPrice": 0.0,
+            "CustomerID": 24.9267,
+            "Country": 0.0
+        }
+    },
+    "duplicates": {
+        "exact_duplicate_rows_to_drop": 5268,
+        "total_rows_involved_in_duplicates": 10147
+    },
+    "date_range": {
+        "min_invoice_date": "2010-12-01 08:26:00",
+        "max_invoice_date": "2011-12-09 12:50:00",
+        "total_days_span": 373,
+        "invalid_dates_count": 0
+    },
+    "invoices_and_cancellations": {
+        "unique_invoices_total": 25900,
+        "cancellation_rows": 9288,
+        "unique_cancellation_invoices": 3836,
+        "other_alpha_invoice_rows": 3
+    },
+    "quantity_analysis": {
+        "min": -80995.0,
+        "p01": -2.0,
+        "median": 3.0,
+        "mean": 9.55,
+        "p99": 100.0,
+        "max": 80995.0,
+        "negative_or_zero_count": 10624,
+        "strictly_negative_count": 10624,
+        "zero_count": 0,
+        "negative_with_c_invoice": 9288,
+        "negative_without_c_invoice": 1336
+    },
+    "unit_price_analysis": {
+        "min": -11062.06,
+        "p01": 0.19,
+        "median": 2.08,
+        "mean": 4.61,
+        "p99": 18.0,
+        "max": 38970.0,
+        "zero_price_count": 2515,
+        "negative_price_count": 2
+    },
+    "customer_id_completeness": {
+        "rows_with_customer_id": 406829,
+        "rows_missing_customer_id": 135080,
+        "missing_customer_id_pct": 24.93,
+        "unique_customers_raw": 4372,
+        "cancellations_with_customer_id": 8905,
+        "cancellations_missing_customer_id": 383
+    },
+    "geography": {
+        "unique_countries": 38,
+        "top_5_countries_by_row_count": {
+            "United Kingdom": 495478,
+            "Germany": 9495,
+            "France": 8557,
+            "EIRE": 8196,
+            "Spain": 2533
+        }
+    },
+    "non_standard_stock_codes": {
+        "non_standard_rows_count": 2995,
+        "top_10_non_standard_codes": {
+            "POST": 1256,
+            "DOT": 710,
+            "M": 571,
+            "C2": 144,
+            "D": 77,
+            "S": 63,
+            "BANK CHARGES": 37,
+            "AMAZONFEE": 34,
+            "CRUK": 16,
+            "DCGSSGIRL": 13
+        }
+    }
+}

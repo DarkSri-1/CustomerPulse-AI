@@ -1,0 +1,40 @@
+{
+    "temporal_framing": {
+        "observation_window_start": "2010-12-01 08:26:00",
+        "prediction_cutoff_date": "2011-09-10 00:00:00",
+        "outcome_window_end": "2011-12-09 12:50:00",
+        "observation_window_days": 282,
+        "outcome_window_days": 90
+    },
+    "cohort_accounting": {
+        "total_active_customers_full_dataset": 4334,
+        "eligible_observation_cohort_customers": 3368,
+        "right_censored_post_cutoff_customers": 966,
+        "retained_customers_count": 1919,
+        "churned_customers_count": 1449,
+        "churn_rate_pct": 43.02,
+        "retention_rate_pct": 56.98
+    },
+    "feature_means_by_class": {
+        "retained_mean": {
+            "recency_days": 72.9,
+            "frequency_orders": 4.77,
+            "monetary_gross": 2263.04,
+            "avg_order_value": 391.53,
+            "unique_products": 65.47,
+            "tenure_days": 191.66,
+            "orders_last_30d": 0.56,
+            "orders_last_60d": 1.12
+        },
+        "churned_mean": {
+            "recency_days": 122.47,
+            "frequency_orders": 1.84,
+            "monetary_gross": 701.66,
+            "avg_order_value": 401.88,
+            "unique_products": 29.14,
+            "tenure_days": 168.84,
+            "orders_last_30d": 0.18,
+            "orders_last_60d": 0.34
+        }
+    }
+}
