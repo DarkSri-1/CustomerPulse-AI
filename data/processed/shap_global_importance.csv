@@ -1,0 +1,26 @@
+feature,display_name,mean_abs_shap,relative_share_pct,feature_shap_correlation,directional_effect,rank
+frequency_orders,Order Frequency (Total Orders),0.0412,13.12,-0.5874,Higher value DECREASES churn risk (-),1
+total_line_items,Total Line Items Purchased,0.0409,13.04,-0.4437,Higher value DECREASES churn risk (-),2
+monetary_gross,Gross Spend (£),0.033,10.52,-0.3189,Higher value DECREASES churn risk (-),3
+avg_days_between_orders,Avg Days Between Orders,0.0295,9.41,-0.5205,Higher value DECREASES churn risk (-),4
+monetary_net,Net Revenue (£),0.0267,8.51,-0.3183,Higher value DECREASES churn risk (-),5
+recency_days,Recency (Days Since Last Order),0.0266,8.47,0.878,Higher value INCREASES churn risk (+),6
+total_units,Total Units Purchased,0.0263,8.38,-0.2944,Higher value DECREASES churn risk (-),7
+spend_last_60d,Spend in Last 60 Days (£),0.0225,7.17,-0.238,Higher value DECREASES churn risk (-),8
+unique_products,Product Diversity (Unique SKUs),0.0155,4.95,-0.5907,Higher value DECREASES churn risk (-),9
+avg_order_value,Average Order Value (£),0.0133,4.22,0.1903,Higher value INCREASES churn risk (+),10
+orders_last_60d,Orders in Last 60 Days,0.0103,3.28,-0.7123,Higher value DECREASES churn risk (-),11
+tenure_days,Customer Tenure (Days),0.0087,2.77,-0.1224,Higher value DECREASES churn risk (-),12
+cancellation_rate_pct,Cancellation Rate (%),0.006,1.9,-0.1025,Higher value DECREASES churn risk (-),13
+cancellations_amount,Cancelled/Returned Amount (£),0.0048,1.52,0.013,Higher value INCREASES churn risk (+),14
+spend_last_30d,Spend in Last 30 Days (£),0.0034,1.08,-0.1911,Higher value DECREASES churn risk (-),15
+spend_ratio_last_30d,30-Day Spend Momentum Ratio,0.0027,0.85,0.2002,Higher value INCREASES churn risk (+),16
+orders_last_30d,Orders in Last 30 Days,0.0013,0.4,-0.7164,Higher value DECREASES churn risk (-),17
+country_infrequent_sklearn,country_infrequent_sklearn,0.0006,0.18,0.9569,Higher value INCREASES churn risk (+),18
+country_United Kingdom,country_United Kingdom,0.0005,0.16,-0.4188,Higher value DECREASES churn risk (-),19
+country_France,country_France,0.0001,0.03,0.7662,Higher value INCREASES churn risk (+),20
+country_Germany,country_Germany,0.0001,0.03,-0.8015,Higher value DECREASES churn risk (-),21
+country_Portugal,country_Portugal,0.0,0.0,0.0,Higher value INCREASES churn risk (+),22
+country_Belgium,country_Belgium,0.0,0.0,0.0,Higher value INCREASES churn risk (+),23
+country_Switzerland,country_Switzerland,0.0,0.0,0.0,Higher value INCREASES churn risk (+),24
+country_Spain,country_Spain,0.0,0.0,0.0,Higher value INCREASES churn risk (+),25
